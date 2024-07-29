@@ -10,24 +10,36 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim",
-                afirmacao: "muito bem! continue reciclando seu lixo para ajudar o meio ambiente."
+                afirmacao: [
+                "muito bem! continue reciclando seu lixo para ajudar o meio ambiente.",
+                "incrivel! continue assim."
+                ]                                                                                                                     
             },
             {
                 texto: "Não",
-                afirmacao: "Você deveria começar a reciclar seu lixo, para ajudar o meio ambiente."
-            }
-
+                afirmacao: [
+                 "Você deveria começar a reciclar seu lixo, para ajudar o meio ambiente.",
+                 "opa opa opa, você deveria começar a reciclar seu lixo."
+                ]
+            },
+           
         ]
     },
     {
         enunciado: "Quais são as principais ameaças á biodiversidade global?",
         alternativas: [{
             texto: "O desmatamento, exploração excessiva de recursos, presença de espécies invasoras e a contaminação ambiental",
-            afirmacao: "O desmatamento e a exploração indiscriminada de recursos naturais são fatores que agravam a contaminação ambiental e favorecem a disseminação de espécies invasoras."
+            afirmacao: [
+           "O desmatamento e a exploração indiscriminada de recursos naturais são fatores que agravam a contaminação ambiental e favorecem a disseminação de espécies invasoras.",
+           "muito bem! sua resposta está correta."
+            ]
         },
         {
             texto: "As principais ameaças á biodiversidade global são a melhoria das condições de vida humana e o aumento da área de reservas naturais",
-            afirmacao: "As principais ameaças á biodiversidade global resultam das atividades humanas e da destruição de habitats naturais, que comprometem a sobrevivência de inúmeras espécies. "
+            afirmacao: [
+            "As principais ameaças á biodiversidade global resultam das atividades humanas e da destruição de habitats naturais, que comprometem a sobrevivência de inúmeras espécies.",
+            "Você deveria refletir sobre a sua resposta, pois está errada"
+            ]
         }
 
         ]
@@ -37,7 +49,10 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O dióxido de carbono (CO2), o metano e o óxido nitroso",
-                afirmacao: "O dióxido de carbono (Co2), o metano (CH4) e o óxido nitroso (N20) são gases de efeito estufa que contribuem significativamente para o aquecimento global."
+                afirmacao: [
+                "O dióxido de carbono (Co2), o metano (CH4) e o óxido nitroso (N20) são gases de efeito estufa que contribuem significativamente para o aquecimento global.",
+                "muito bem! você está certa."
+                ]
             },
             {
                 texto: "Oxigênio, o hidrogênio e o hélio",
