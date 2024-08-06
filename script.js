@@ -56,7 +56,10 @@ const perguntas = [
             },
             {
                 texto: "Oxigênio, o hidrogênio e o hélio",
-                afirmacao: "O oxigênio, o hidrogênio e o hélio são elementos químicos fundamentais, cada um com propriedades únicas e importantes para diversos processos naturais e industriais"
+                afirmacao: [
+                "O oxigênio, o hidrogênio e o hélio são elementos químicos fundamentais, cada um com propriedades únicas e importantes para diversos processos naturais e industriais",
+                "ops! resposta errada."
+                ]
             }
 
         ]
@@ -66,11 +69,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ajuda a fertilizar o solo, melhora a qualidade do ar e proporciona habitats seguros para várias espécies de animais aquáticos",
-                afirmacao: "A restauraação de ecossistemas aquáticos ajuda a fertilizar o solo, melhora a qualidade do ar e proporciona habitats seguros para várias espécies de animais."
+                afirmacao: [
+                "A restauraação de ecossistemas aquáticos ajuda a fertilizar o solo, melhora a qualidade do ar e proporciona habitats seguros para várias espécies de animais.",
+                "poxa, você errou!"
+                ]
             },
             {
                 texto: "Proliferam-se os lixões a céu aberto, contaminando a água dos rios e lençóis freáticos",
-                afirmacao: "Os lixões a céu aberto proliferam, contaminando a água dos rios e lençóis freáticos."
+                afirmacao:[
+                 "Os lixões a céu aberto proliferam, contaminando a água dos rios e lençóis freáticos.",
+                 "Você é um gênio!"
+                ]
             }
 
         ]
@@ -80,11 +89,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O ruído pode pertubar os padrões de reprodução, aleitamento e, inclusive, contribuir para a extinção de algumas espécies",
-                afirmacao: "o ruído pode afetar negativamente os padrões de reprodução e aleitamento, contribuindo até mesmo para a extinção de certas espécies"
+                afirmacao: [
+                "o ruído pode afetar negativamente os padrões de reprodução e aleitamento, contribuindo até mesmo para a extinção de certas espécies",
+                "muito bem! vocẽ está certíssimo parabéns"
+                ]
             },
             {
                 texto: "A poluição sonora não afeta a vida selvagem nem dos seres humanos, muitos animais se adaptam e até prosperam em ambientes barulhentos, e os seres humanos não tem nenhum impacto negativo na saúde",
-                afirmacao: "A poluição sonora afeta muito os animais e os seres humanos também"
+                afirmacao: [
+                "A poluição sonora afeta muito os animais e os seres humanos também",
+                "vish, essa passou longe!"
+                ]
             }
 
         ]
